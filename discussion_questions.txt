@@ -1,0 +1,35 @@
+
+Runtime
+
+1.  The amount of crackers in the box would determine the workload.  The more crackers, the bigger the work load.  The runtime would remain O(n).
+
+2.  O(1)
+	O(log n)
+	O(n)
+	O(n log n)
+	O(n^2)
+	O(2^n)
+
+Stacks and Queues
+
+1. 
+	1. Stack
+	2. Queue
+	3. Stack
+2.  Queue - ticket counter, coffee shop
+3.  Stack - stack of dishes, stack of pancakes
+
+Linked Lists
+
+1.  Apple, Berry, Cherry boxes are the nodes.
+The data for each node is the string "Apple", "Berry", "Cherry".
+The head as defined in LLIST the arrow points to the Apple node.The tail is undefined in LLIST, but by traversing through the list the last node in the list is Cherry.  The arrows represent the node's next attribute pointing to the next node in the list.
+2.  Each node in doubly linked lists have two pointers, one points towards the previous node and the other uses it's next attribute to point to the next node in the list.  Each node in a singly linked list contains data and it's next attribute points to the next node in the list. 
+3.  It's faster to append to a linked list when a tail attribute is defined because instead of traversing through the whole list to reach the last node, you just append to the tail attribute.
+
+Trees
+
+1.	Breadth First Search (BFS) uses a queue.  food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos.
+2.  Depth First Search (DFS) uses a stack.  food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka masala, Italian, pizza, Sicillian, New York-style, Chicago-style.
+3.  A binary search tree is a tree that is balanced where each node in the tree can have no more than two children.  The nodes on the left of the tree have a less value than the node you're currently on and the nodes on the right have a greater value than the node you're currently on.  The runtime is O(log n).
+
